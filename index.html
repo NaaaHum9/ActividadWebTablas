@@ -1,0 +1,176 @@
+<!--
+    Alumno: Velazquez Garduno Jorge Nahum
+    Grupo: 4CM3 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Actividad 2/style.css">
+    <title>Actividad 2</title>
+</head>
+<body>
+    <header>
+        <h2>Tablas en HTML</h2>
+    </header>
+    <main>
+        <div>
+            <table border="5px">
+                <tr>
+                    <th>Primero-cuadro</td>
+                    <th>Segundo-cuadro</td>
+                    <th colspan="2">Tercero-cuadro</td>
+                    <th>Decimo-cuadro</td>
+                    <th colspan="4">Basura</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Cuarto-cuadro</td>
+                    <td colspan="3">Quinto-cuadro</td>
+                    <td rowspan="2">Sexto-cuadro</td>
+                    <td colspan="2">Onceavo-cuadro</td>
+                    <td rowspan="3">Basura</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Septimo-cuadro</td>
+                    <td rowspan="2">Octavo-cuadro</td>
+                    <td colspan="2">Noveno-cuadro</td>
+                    <td colspan="3">Basura</td>
+                    <td rowspan="2">Doceavo-cuadro</td>
+                </tr>
+
+                <tr>
+                    <td>Primero-cuadro</td>
+                    <td rowspan="2">Segundo-cuadro</td>
+                    <td colspan="3">Tercero-cuadro</td>
+                    <td colspan="3">Basura</td>
+                    <td colspan="2">Fin-cuadros</td>
+                </tr>
+            </table>
+            <br>
+            <table border="3px">
+                <thead bgcolor="#ffffff">
+                    <tr>
+                        <td>Paquete</td>
+                        <td>Paquete 1</td>
+                        <td>Paquete 2</td>
+                        <td>Paquete 3</td>
+                        <td>Paquete 4</td>
+                        <td>Paquete 5</td>
+                    </tr>
+                </thead>
+
+                <tbody bgcolor="gray">
+                    <tr>
+                        <td rowspan="3">Paquete</td>
+                        <td>Paquete 1</td>
+                        <td>Paquete 2</td>
+                        <td>Paquete 3</td>
+                        <td>Paquete 4</td>
+                        <td>Paquete 5</td>
+                    </tr>
+                    <tr>
+                        <td>Paquete</td>
+                        <td>Paquete 1</td>
+                        <td>Paquete 2</td>
+                        <td>Paquete 3</td>
+                        <td>Paquete 4</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Paquete</td>
+                        <td>Paquete 1</td>
+                        <td>Paquete 2</td>
+                        <td>Paquete 3</td>
+                        <td>Paquete 4</td>
+                        
+                    </tr>
+                </tbody>
+
+                <tfoot bgcolor="green">
+                    <tr>
+                        <td>Paquete</td>
+                        <td>Paquete 1</td>
+                        <td>Paquete 2</td>
+                        <td>Paquete 3</td>
+                        <td>Paquete 4</td>
+                        <td>Paquete 5</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div>
+            <br>
+            
+            <table class="tablaHorarios">
+                <thead class="theadHoario">
+                    <tr>
+                        <th colspan="6">Mi horario de clases</th>
+                    </tr>
+                </thead>
+
+                <tbody class="tbodyHorario">
+                    <tr>
+                        <td>Hora</td>
+                        <td>LUNES</td>
+                        <td>MARTES</td>
+                        <td>MIERCOLES</td>
+                        <td>JUEVES</td>
+                        <td>VIERNES</td>
+                    </tr>
+                    <tr>
+                        <td>7 - 9 am</td>
+                        <td>Fisica</td>
+                        <td>Geografia</td>
+                        <td>Historia</td>
+                        <td>Calculo</td>
+                        <td>Civica</td>
+                    </tr>
+                    <tr>
+                        <td>9 - 11 am</td>
+                        <td>Comunicacion</td>
+                        <td>Biologia</td>
+                        <td>Matematicas</td>
+                        <td>Fisica</td>
+                        <td>Quimica</td>
+                    </tr>
+                    <tr>
+                        <td>11 - 1 am</td>
+                        <th colspan="5">Descanso</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>3 - 5 pm</td>
+                        <td>Historia</td>
+                        <td>Arte</td>
+                        <td>Musica</td>
+                        <td>Tecnologia</td>
+                        <td>Fisica</td>
+                    </tr>
+                    <tr>
+                        <td>5 - 7 pm</td>
+                        <td>Ingles</td>
+                        <td>Economia</td>
+                        <td>Quimica</td>
+                        <td>Redaccion</td>
+                        <td>Musica</td>
+                    </tr>
+                </tbody>
+
+                <tfoot class="tfootHorario">
+                    <tr>
+                        <th colspan="6">Horario verano del 5to B</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
